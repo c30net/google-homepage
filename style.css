@@ -1,0 +1,93 @@
+.topright1{
+  position: fixed;
+  right: 150px;
+ color:black;
+ 
+}
+
+.topright2{
+  position: fixed;
+  right: 90px;
+ color:black;
+ 
+}
+
+
+.topright3{
+  position: fixed;
+  right: 50px;
+ color:black;
+ 
+}
+
+input[type=text] {
+  width: 600px;
+  padding: 12px;
+  margin: 25px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+
+
+footer {
+  display: inline-block;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 35px;
+  background-color: #f2f2f2;
+  color: #f2f2f2;
+  
+}
+
+.left1 {
+  text-align: left;
+  margin: 10px;
+  line-height: 40px;
+  color: rgb(95, 99, 104)
+
+ }
+ .left2 {
+  text-align: left;
+  margin: 10px;
+  line-height: 40px;
+  color: rgb(95, 99, 104)
+
+ }
+ .left3 {
+  text-align: left;
+  margin: 15px;
+  line-height: 40px;
+  color: rgb(95, 99, 104)
+
+ }
+ .left4 {
+  text-align: left;
+  margin: 15px;
+  line-height: 40px;
+  color: rgb(95, 99, 104)
+
+ }
+ 
+ .right1 {
+  text-align:right;
+  margin: 15px;
+  line-height: 40px;
+  color: rgb(95, 99, 104)
+
+}
+.right2 {
+  text-align:right;
+  margin: 15px;
+  line-height: 40px;
+  color: rgb(95, 99, 104)
+
+}
+.right3 {
+  text-align:right;
+  margin: 15px;
+  line-height: 40px;
+  color: rgb(95, 99, 104)
+}
