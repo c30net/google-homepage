@@ -1,35 +1,77 @@
+a  {
+  text-decoration: none;
+  cursor: pointer; 
+
+}
+
 .topright1{
   position: fixed;
-  right: 150px;
- color:black;
+  right: 210px;
+  top: 20px;
+  color:black;
  
 }
 
 .topright2{
   position: fixed;
-  right: 90px;
- color:black;
+  top: 20px;
+  right: 150px;
+  color:black;
  
 }
 
 
 .topright3{
   position: fixed;
-  right: 50px;
- color:black;
- 
+  top: 20px;
+  right: 110px;
+  color:black;
 }
 
+.shastak {
+  color:white;
+  background-color: rgb(17, 142, 224);
+  position: fixed;
+  top: 16px;
+  right: 30px;
+  padding: 5px 11px;
+  border: 0;
+  font-size: 14px;
+}
+
+
 input[type=text] {
+  display: flex;
+  height: 50px;
   width: 600px;
   padding: 12px;
   margin: 25px;
   border: 1px solid #ccc;
-  border-radius: 20px;
+  border-radius: 40px;
   box-sizing: border-box;
 }
 
+.searchzone {
+  margin: 200px;
+}
 
+
+
+
+.dastak {
+  color: rgb(95, 99, 104);
+  background-color: rgb(242, 242, 242);
+  cursor: pointer;
+  font-family: arial,sans-serif;
+  border: 0cm;
+  border-radius: 4px;
+  width: 11;
+  padding: 0px 16px 0px 16px;
+  height: 30px;
+  margin: 10px 5px;
+  font-size: 14px;
+  min-width: 54px;
+}
 
 footer {
   display: inline-block;
@@ -39,6 +81,7 @@ footer {
   height: 35px;
   background-color: #f2f2f2;
   color: #f2f2f2;
+  font-size: 14px;
   
 }
 
@@ -65,7 +108,7 @@ footer {
  }
  .left4 {
   text-align: left;
-  margin: 15px;
+  margin: 15px 700px 15px 15px;
   line-height: 40px;
   color: rgb(95, 99, 104)
 
@@ -79,7 +122,7 @@ footer {
 
 }
 .right2 {
-  text-align:right;
+  text-align: center;
   margin: 15px;
   line-height: 40px;
   color: rgb(95, 99, 104)
@@ -87,7 +130,7 @@ footer {
 }
 .right3 {
   text-align:right;
-  margin: 15px;
+    margin: 15px;
   line-height: 40px;
   color: rgb(95, 99, 104)
 }
