@@ -4,57 +4,57 @@ a  {
 
 }
 
-
-
-.topright1{
-  position: fixed;
-  right: 230px;
-  top: 24px;
-  color:black;
-  font-size: 14px;
-  font-family: arial, sans-serif;
-
- 
+li  a:hover {
+  text-decoration: underline;
 }
 
-.topright2{
-  position: fixed;
-  top: 24px;
-  right: 165px;
-  color:black;
-  font-family: arial, sans-serif;
-  font-size: 14px;
-
-
+a {
+  color: inherit;
 }
 
-
-.topright3{
-  position: fixed;
-  top: 21px;
-  right: 120px;
-  color:black;
-  line-height: 24px
-  font-family: arial, sans-serif;
-  font-size: 14px;
-
-
+.topright1 {
+  padding: 10px 3px 0px 5px;
+  margin: 5px;
+  font-size: 13px;
 }
 
+.topright2 {
+  padding: 10px;
+  margin: 5px 6px 0px 3px;
+  font-size: 13px;
+}
+
+.topright3 {
+  padding: 0px;
+  margin: 5px 10px 0px 0px;
+  display: block;
+}
 
 .shastak {
-  color:white;
+  padding: 8px 12px;
+  margin: 0px 20px 0px 5px;
   background-color: rgb(17, 142, 224);
-  position: fixed;
-  top: 16px;
-  right: 30px;
-  padding: 7px 13px;
-  border: 0;
-  font-size: 14px;
+  border: none;
+  color: white;
+  font-size: 13px;
   font-weight: bold;
-  
 }
 
+
+.n1, .n2, .n3 {
+  list-style-type: none;
+  display: inline;
+  line-height: 50px;
+  width: 100%;
+  font-family: arial, sans-serif;
+}
+
+li {
+  float: right;
+}
+
+
+/*end of the top navbar work*/
 
 input[type=text] {
   display: flex;
@@ -65,13 +65,16 @@ input[type=text] {
   border: 1px solid #ccc;
   border-radius: 40px;
   box-sizing: border-box;
+
+}
+
+input[type=text]:hover  {
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .searchzone {
   margin: 200px;
 }
-
-
 
 
 .dastak {
@@ -89,6 +92,9 @@ input[type=text] {
   min-width: 54px;
 }
 
+
+
+/*start of the bottom navbar work*/
 footer {
   display: inline-block;
   position: fixed;
@@ -101,32 +107,34 @@ footer {
   
 }
 
+
+
 .left1 {
   text-align: left;
   margin: 10px;
   line-height: 40px;
-  color: rgb(95, 99, 104)
+  color: rgb(95, 99, 104);
 
  }
  .left2 {
   text-align: left;
   margin: 10px;
   line-height: 40px;
-  color: rgb(95, 99, 104)
+  color: rgb(95, 99, 104);
 
  }
  .left3 {
   text-align: left;
   margin: 15px;
   line-height: 40px;
-  color: rgb(95, 99, 104)
+  color: rgb(95, 99, 104);
 
  }
  .left4 {
   text-align: left;
   margin: 15px 750px 15px 15px;
   line-height: 40px;
-  color: rgb(95, 99, 104)
+  color: rgb(95, 99, 104);
 
  }
  
@@ -134,19 +142,20 @@ footer {
   text-align:right;
   margin: 15px;
   line-height: 40px;
-  color: rgb(95, 99, 104)
+  color: rgb(95, 99, 104);
 
 }
 .right2 {
   text-align: right;
   margin: 15px;
   line-height: 40px;
-  color: rgb(95, 99, 104)
+  color: rgb(95, 99, 104);
 
 }
 .right3 {
   text-align:right;
   margin: 15px;
   line-height: 40px;
-  color: rgb(95, 99, 104)
+  color: rgb(95, 99, 104);
 }
+
